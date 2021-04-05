@@ -82,7 +82,7 @@ def sendmail(to,content):#not succeeded
     server=smtplib.SMTP("smtp.gmail.com",587)
     server.ehlo()
     server.starttls()
-    server.login("n160131@rguktn.ac.in","Mani@1234")
+    server.login("gmail","password")
     server.sendmail("N160131@rguktn.ac.in",to,content)
     server.close()'''
 def takepicture():
