@@ -6,11 +6,11 @@ import wikipedia  as wiki
 import speech_recognition as sr
 import smtplib
 import os
-assistant_name= "Naavya"#"vyishu"#"whyzal"
+assistant_name= "Prahladh"
 owner="Manikanta"
 engine=pts.init()
 voices = engine.getProperty('voices')
-engine.setProperty('gender', 'female')
+engine.setProperty('gender', 'male')
 
 #print(voices)
 engine.setProperty('voice', voices[1].id)
